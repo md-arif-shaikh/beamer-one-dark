@@ -1,0 +1,67 @@
+\documentclass{beamer}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=onecyan,
+    filecolor=magenta,      
+    urlcolor=oneyellow,
+    }
+\useinnertheme{rectangles}
+\setbeamertemplate{itemize subitem}[circle]
+\setbeamertemplate{navigation symbols}{}
+\setbeamercolor{frametitle}{fg=white}
+\definecolor{onedark}{HTML}{282C34}
+\definecolor{oneorange}{HTML}{E0657C}
+\definecolor{oneyellow}{HTML}{E5C07B}
+\definecolor{onegreen}{HTML}{98C379}
+\definecolor{oneblue}{HTML}{61AFEF}
+\definecolor{onecyan}{HTML}{56B6C2}
+\setbeamercolor{background canvas}{bg=onedark}
+\setbeamercolor{normal text}{fg=white}
+\setbeamercolor{itemize item}{fg=oneyellow}
+\setbeamercolor{itemize subitem}{fg=oneblue}
+\setbeamercolor{itemize subsubitem}{fg=oneocyan}
+
+
+\setbeamercolor{title}{fg=oneblue}
+\setbeamercolor{author}{fg=onecyan}
+\setbeamercolor{date}{fg=oneyellow}
+
+\setbeamertemplate{footline}[frame number]
+\setbeamerfont{date}{size=\footnotesize}
+\setbeamercolor{alerted text}{fg=oneyellow}
+\setbeamercolor{frametitle}{fg=oneblue}
+\setbeamertemplate{frametitle}{%
+  \vspace{0.1cm}
+  \insertframetitle
+  \vspace{0.1cm}
+  \hrule
+}
+
+\title{A beamer dark color theme using onedark colors}
+\author{Md Arif Shaikh}
+\institute{{\color{onecyan}International Centre for Theoretical Sciences, Bangalore, India}}
+\date{\today}
+
+\begin{document}
+\thispagestyle{empty}
+\maketitle
+
+\begin{frame}
+  {A frame title}
+  First, few bullet points
+  \begin{itemize}
+  \item First bullet point.
+  \item Second bullet point.
+    \begin{itemize}
+    \item First subitem.
+    \item Second subitem.
+    \end{itemize}
+  \item Third bullet point.
+  \end{itemize}
+  Now, an equation
+  \begin{equation}
+    \label{eq:equation}
+    R_{\mu\nu} + \frac{1}{2} g_{\mu\nu} R = \frac{8\pi G}{c^4} T_{\mu \nu}
+  \end{equation}
+\end{frame}
+\end{document}
