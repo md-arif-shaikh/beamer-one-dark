@@ -1,0 +1,14 @@
+#+TITLE: Beamer slides with one dark colors
+#+AUTHOR: Md Arif Shaikh
+#+EMAIL: arifshaikh.astro@gmail.com
+
+* Table of contents :TOC:
+- [[#screenshots][Screenshots]]
+  - [[#title-page][Title page]]
+  - [[#example-slid][Example slid]]
+
+* Screenshots
+** Title page
+#+html: <div> <img src="./screenshots/title.png"></div>
+** Example slid
+#+html: <div> <img src="./screenshots/slide.png"></div>
