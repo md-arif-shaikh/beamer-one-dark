@@ -12,12 +12,12 @@ jobs:
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v2
         with:
-          root_file: beamer-one-dark.tex
+          root_file: slides.tex
       - name: Commit to orphan branch
         run: |
           git checkout --orphan pdflatex
           git rm -rf .
-          git add beamer-one-dark.pdf
+          git add slides.pdf
           git -c user.name='GitHub Action' -c user.email='action@github.com' commit -m "Built paper"
       - name: Push changes
         uses: ad-m/github-push-action@master
