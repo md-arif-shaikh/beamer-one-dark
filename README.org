@@ -2,13 +2,4 @@
 #+AUTHOR: Md Arif Shaikh
 #+EMAIL: arifshaikh.astro@gmail.com
 
-* Table of contents :TOC:
-- [[#screenshots][Screenshots]]
-  - [[#title-page][Title page]]
-  - [[#example-slide][Example slide]]
-
-* Screenshots
-** Title page
-#+html: <div> <img src="./screenshots/title.png"></div>
-** Example slide
-#+html: <div> <img src="./screenshots/slide.png"></div>
+Link to the [[https://github.com/md-arif-shaikh/beamer-one-dark/blob/pdflatex/beamer-one-dark.pdf][slides]].
