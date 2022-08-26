@@ -2,4 +2,4 @@
 #+AUTHOR: Md Arif Shaikh
 #+EMAIL: arifshaikh.astro@gmail.com
 
-Link to the [[https://github.com/md-arif-shaikh/beamer-one-dark/blob/pdflatex/beamer-one-dark.pdf][slides]].
+Link to the [[https://github.com/md-arif-shaikh/beamer-one-dark/blob/pdflatex/slides.pdf][slides]].
